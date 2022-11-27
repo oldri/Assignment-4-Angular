@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 1.125rem;
+	line-height: 1.5;
+	transition: all 725ms ease-in-out;
+  background-color: rgb(109, 193, 235);
+}
+
+
+

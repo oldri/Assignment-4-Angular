@@ -1,0 +1,26 @@
+.title-center {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.space {
+  padding-top: 5%
+}
+
+.mat-toolbar  {
+  background-color: transparent;
+}
+
+
+@media screen and (max-width: 992px) {
+  .space {
+    padding-top: 10%
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .space {
+    padding-top: 15%
+  }
+}

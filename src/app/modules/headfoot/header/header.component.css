@@ -1,0 +1,37 @@
+.container {
+  height: 25vh;
+}
+
+.title-center {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.header {
+  position: relative;
+  z-index: 2;
+  background-color: #333;
+  padding-top: 5%;
+}
+
+
+.mat-toolbar  {
+  background-color: transparent;
+}
+
+
+@media screen and (max-width: 992px) {
+  .header{
+    padding-top: 10%;
+  }
+  .title-center {
+    font-size: 15px;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .header{
+    padding-top: 15%
+  }
+}
